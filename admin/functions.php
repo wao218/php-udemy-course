@@ -155,7 +155,9 @@ function insert_categories(){
 
         
              }
-    
+
+             
+    mysqli_stmt_close($stmt);
    
         
        }
